@@ -1,0 +1,4 @@
+<resources>
+<string name="app_name">张雨鑫2024110548</string><string name="dynamic_title">区1 · 动态生成 TextView</string><string name="hint">输入要添加的内容</string><string name="add">添加</string><string name="clear">清空</string><string name="empty">请输入内容后再添加</string><string name="item">%1$d. %2$s</string><string name="count">已添加 %1$d 个 TextView</string><string name="mvc_title">区2 · ProgramAdviser（MVC）</string><string name="choose">请选择学习方向</string><string name="query">查询推荐</string><string name="initial">选择方向后点击“查询推荐”</string><string name="result">推荐结果：\n%1$s</string>
+<string name="mobile">Kotlin：Android 应用开发\nJava：Android 基础与后端开发</string><string name="web">JavaScript：网页交互开发\nTypeScript：大型 Web 项目开发</string><string name="data">Python：数据分析与人工智能\nR：统计分析与数据可视化</string><string name="system">C：系统编程基础\nC++：高性能程序与算法</string>
+<string-array name="directions"><item>移动应用开发</item><item>Web 开发</item><item>数据分析与人工智能</item><item>系统与算法</item></string-array></resources>

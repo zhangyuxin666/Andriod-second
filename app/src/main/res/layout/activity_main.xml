@@ -1,0 +1,14 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="16dp" android:background="#F4F6FA">
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/app_name" android:textSize="22sp" android:textStyle="bold" android:textColor="#172B4D" android:paddingBottom="18dp"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/dynamic_title" android:textSize="18sp" android:textStyle="bold"/>
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+<EditText android:id="@+id/input" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:hint="@string/hint" android:singleLine="true" android:inputType="text"/>
+<Button android:id="@+id/add" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add"/>
+<Button android:id="@+id/clear" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/clear"/></LinearLayout>
+<TextView android:id="@+id/count" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="14sp"/>
+<ScrollView android:id="@+id/scroll" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:fillViewport="true" android:background="#FFFFFF" android:layout_marginTop="8dp" android:layout_marginBottom="20dp"><LinearLayout android:id="@+id/items" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="12dp"/></ScrollView>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/mvc_title" android:textSize="18sp" android:textStyle="bold"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/choose" android:paddingTop="8dp"/>
+<Spinner android:id="@+id/direction" android:layout_width="match_parent" android:layout_height="48dp" android:entries="@array/directions"/>
+<Button android:id="@+id/query" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/query"/>
+<TextView android:id="@+id/result" android:layout_width="match_parent" android:layout_height="120dp" android:text="@string/initial" android:textSize="17sp" android:padding="12dp" android:background="#E7EEFF" android:textColor="#172B4D"/></LinearLayout>
